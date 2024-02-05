@@ -5,7 +5,7 @@ const AuthPage = (props) => {
     e.preventDefault();
     const { value } = e.target[0];
     axios
-      .post("https://backend-chat-app-4lft.onrender.com/authenticate", { username: value })
+      .post("https://frontend-chat-app-xexb.onrender.com/authenticate", { username: value })
       .then((r) => props.onAuth({ ...r.data, secret: value }))
       .catch((e) => console.log("Auth Error", e));
   };
