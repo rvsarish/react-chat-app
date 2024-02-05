@@ -23,5 +23,5 @@ app.post("/authenticate", async (req, res) => {
   }
   return res.json({ username: username, secret: "sha256..." });
 });
-//  "bcd0816f-ea93-4a04-b4c0-d0a4c74fc1c9"
+
 app.listen(3001);
