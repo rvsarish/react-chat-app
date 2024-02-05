@@ -1,4 +1,4 @@
-POST https://backend-chat-app-4lft.onrender.com/authenticate
+POST https://frontendchatapp.onrender.com/authenticate
 Content-Type: application/json
 
 {"username": "zack"}
